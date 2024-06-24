@@ -96,6 +96,7 @@ label {
   --cascading-white: #f6f6f6;
   --nīlā-blue: #0057ff;
   --white: #ffffff;
+  --palomino-gold: #d7ac00;
 }
 
 
@@ -193,4 +194,28 @@ label {
   color: var(--nīlā-blue);
   font-family: "Open Sans", sans-serif;
   text-decoration: underline;
+}
+
+.content__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content__btn {
+  padding: 7px 15px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: var(--bauhaus);
+  font-family: "Oswald", sans-serif;
+  background-color: var(--usc-gold);
+  border-radius: 7px;
+  border: 1px solid var(--usc-gold);
+  transition: border .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+.content__btn:hover {
+  border: 1px solid var(--palomino-gold);
+  /* background-color: rgba(var(--palomino-gold), 0.4); */
 }
